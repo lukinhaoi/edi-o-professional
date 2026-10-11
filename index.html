@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundo Da Edição</title>
+</head>
+<body class="body">
+
+    <!-- CONTAINER PRINCIPAL: Ele junta os dois lados lado a lado -->
+    <div class="container-principal">
+        
+        <!-- COLUNA ESQUERDA: Seu título e botões originais -->
+        <div class="coluna-esquerda">
+            <h1 class="titulo">Tenha seus vídeos editados por metade do preço</h1>
+            
+            <div class="bloco-botoes">
+<a class="zap" href="https://wa.me/5511983226406?text=ol%C3%A1%20vi%20seu%20trabalho%20e%20me%20interessei.">Chamar no WhatsApp</a>         
+<a class="mail" href="mailto:lucaslimabraga2014@gmail.com?subject=Ol%C3%A1">Enviar e-mail</a>               
+</div>
+        </div>
+
+        <!-- COLUNA DIREITA: Seu novo texto de apresentação -->
+        <div class="coluna-direita">
+            <h2>Olá, eu sou um Editor de Vídeos! 🎬</h2>
+            
+            <p>Transformo gravações simples em conteúdos dinâmicos, bem acabados e prontos para bombar nas redes sociais.</p>
+            
+            <p>Trabalho com cortes para TikTok, Reels e Shorts, edição de gameplays, vídeos para pequenos negócios, legendas estilizadas, efeitos, transições e edits no ritmo da música.</p>
+            
+            <p>Meu foco é entregar vídeos que prendem a atenção nos primeiros segundos e mantêm o público assistindo até o final.</p>
+            
+            <h3>Por que trabalhar comigo?</h3>
+            <ul>
+                <li>Edição rápida e com capricho</li>
+                <li>Prazos combinados e cumpridos</li>
+                <li>Ajustes para você ficar satisfeito</li>
+                <li>Atendimento simples e direto</li>
+            </ul>
+            
+            <p>Aqui no portfólio você encontra alguns dos meus trabalhos. Se gostou do meu estilo, vamos conversar! Me chame pelo botão de contato e peça seu orçamento.</p>
+            
+            <p class="destaque">Seu vídeo merece uma edição que chame atenção. Vamos criar algo incrível juntos? 🚀</p>
+        </div>
+
+    </div>
+    
+    <style>
+        /* Configurações globais do corpo da página */
+        .body {
+            background-color: rgb(49, 121, 228);
+            margin: 0;
+            font-family: Arial, sans-serif; /* Uma fonte padrão limpa para o texto */
+            color: white;
+            min-height: 100vh;
+            box-sizing: border-box;
+        }
+
+        /* Ativa o Flexbox para colocar as duas colunas lado a lado */
+        .container-principal {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start; /* Alinha o conteúdo pelo topo */
+            padding: 40px;
+            gap: 50px; /* Cria um espaço seguro entre a coluna esquerda e a direita */
+        }
+
+        /* Configurações da Coluna da Esquerda */
+        .coluna-esquerda {
+            flex: 1;
+            max-width: 50%;
+        }
+
+        .titulo {
+            text-align: left; /* Mudado para a esquerda para alinhar com os botões */
+            font-size: 60px;  /* Ajustado levemente para não esmagar o texto lateral */
+            padding-bottom: 40px;
+            margin: 0;
+        }
+
+        /* Container para empilhar os botões de forma organizada */
+        .bloco-botoes {
+            display: flex;
+            flex-direction: column;
+            gap: 20px; /* Cria o espaçamento entre os botões sem precisar de <br> */
+            align-items: flex-start;
+        }
+
+        /* Configurações dos Botões */
+        .zap, .mail {
+            display: inline-block;
+            text-align: center;
+            border: 2px solid #4f5457; 
+            padding: 12px 24px; 
+            text-decoration: none; 
+            color: #13ee30;        
+            background-color: #4f5457; 
+            font-size: 30px; /* Ajustado para encaixar melhor no layout de duas colunas */
+            border-radius: 30px;
+            width: fit-content; /* Faz o botão ter o tamanho exato do texto interno */
+        }
+
+        /* Configurações da Coluna da Direita (Seu texto) */
+        .coluna-direita {
+            flex: 1;
+            max-width: 45%;
+            background-color: rgba(0, 0, 0, 0.2); /* Um fundo sutil escuro para dar leitura ao texto */
+            padding: 30px;
+            border-radius: 15px;
+        }
+
+        .coluna-direita h2 {
+            margin-top: 0;
+            font-size: 32px;
+        }
+
+        .coluna-direita p {
+            font-size: 18px;
+            line-height: 1.6; /* Deixa o texto mais espaçado e confortável para ler */
+        }
+
+        .coluna-direita ul {
+            font-size: 18px;
+            line-height: 1.8;
+            padding-left: 20px;
+        }
+
+        .destaque {
+            font-weight: bold;
+            font-size: 20px !important;
+            color: #13ee30; /* Usa o mesmo verde chamativo dos botões */
+        }
+    </style>
+</body>
+</html>
